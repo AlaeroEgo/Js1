@@ -1,0 +1,51 @@
+body {
+    background-color: #ccf;
+    width: 1600px;
+    height: 100%;
+    opacity: .9
+}
+
+.chess_mate {
+    background-color: #ccf;
+    margin: 30% 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    width:910px;
+   
+}
+
+.chess_mate .black {
+	box-sizing: border-box;
+    background-color: #000;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc
+}
+
+.chess_mate .white {
+	box-sizing: border-box;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc
+}
+
+.num {
+	box-sizing: border-box;
+    background-color: #ccf;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
+    color: green;
+    font-size: 20px;
+    display: flex;
+   padding: 40px 45px;
+}
+
+.line {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1px;
+	box-sizing: border-box;
+}
